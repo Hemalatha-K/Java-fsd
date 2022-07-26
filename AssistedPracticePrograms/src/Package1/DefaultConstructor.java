@@ -1,4 +1,4 @@
-package AssistedPracticeProjects;
+package Package1;
 	class EmpInfo{
 		int id;
 		String name;

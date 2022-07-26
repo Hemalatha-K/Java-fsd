@@ -1,6 +1,6 @@
 package Package2;
 
-import AssistedPracticeProjects.*;
+import Package1.*;
 
 public class AccessSpecifier1 extends ProtectedAccessModifier {
 

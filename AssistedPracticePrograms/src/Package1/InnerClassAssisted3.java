@@ -1,4 +1,4 @@
-package AssistedPracticeProjects;
+package Package1;
 
 abstract class AnonymousInnerClass {
 	   public abstract void display();

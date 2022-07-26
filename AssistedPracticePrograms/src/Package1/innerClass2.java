@@ -1,4 +1,4 @@
-package AssistedPracticeProjects;
+package Package1;
 
 public class innerClass2 {
 	private String m="Inner Classe";

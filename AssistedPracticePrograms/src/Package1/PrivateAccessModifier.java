@@ -1,4 +1,4 @@
-package AssistedPracticeProjects;
+package Package1;
 
 class PrivateAccessModifier {
 	private void display() 

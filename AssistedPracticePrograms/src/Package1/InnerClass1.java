@@ -1,4 +1,4 @@
-package AssistedPracticeProjects;
+package Package1;
 
 public class InnerClass1 {
 	private String m="Java"; 

@@ -1,4 +1,4 @@
-package AssistedPracticeProjects;
+package Package1;
 class Std{
 	int id;
 	String name;
