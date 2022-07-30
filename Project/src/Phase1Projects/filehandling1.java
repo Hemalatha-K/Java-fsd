@@ -8,27 +8,27 @@ import java.util.Scanner;
 public class filehandling1 {
 
 	public static void main(String[] args) throws IOException {
-		File file = new File("C:\\Users\\user\\Downloads\\java files\\data.txt");
-		if(file.createNewFile()) {
-			System.out.println(file.exists());
+		File f = new File("C:\\Users\\user\\Downloads\\java files\\data.txt");
+		if(f.createNewFile()) {
+			System.out.println(f.exists());
 		}
 		
-		FileWriter fw = new FileWriter(file);
-		fw.write("Hello Everyone \nHow are you");
+		FileWriter fw = new FileWriter(f);
+		fw.write("Print this line \n Hi!!! ");
 		fw.flush();
-		System.out.println("Reading content in the file");
-		Scanner reader = new Scanner(file);
+		System.out.println("Reading file");
+		Scanner reader = new Scanner(f);
 		while (reader.hasNext()) {
 			String content = reader.nextLine();
 			System.out.println(content);
 		}
-		System.out.println("File reading is over");
+		System.out.println("The File has been read");
 		reader.close();
-		System.out.println("\n\nAppending...");
-		FileWriter fw1 = new FileWriter(file, true);
+		System.out.println("\n\nAdding another line..");
+		FileWriter fw1 = new FileWriter(f, true);
 		fw1.write("\nWelcome to java");
 		fw1.flush();
-		System.out.println("new text is appended into the file");
+		System.out.println("New Line is added into the exixting file");
 
 	}
 
