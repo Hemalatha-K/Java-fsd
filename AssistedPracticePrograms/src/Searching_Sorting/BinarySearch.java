@@ -2,7 +2,8 @@ package Searching_Sorting;
 
 public class BinarySearch {
 	
-	public static  void main(String[] args){
+	public static  void main(String[] args)
+	{
 
 
         int[] arr = {3,6,19,12,15};

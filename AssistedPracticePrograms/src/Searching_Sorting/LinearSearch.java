@@ -12,7 +12,8 @@ public class LinearSearch {
         int searchValue = sc.nextInt();
             int result = (int) linearing(arr,searchValue);
 
-            if(result==-1){
+            if(result==-1)
+            {
 
                 System.out.println("Element not in the array");
             } else {

@@ -11,7 +11,8 @@ public class ExponentialSearch {
 	    int value = 18;
 	    int outcome = exponentialSearch(arr,length,value);
 
-	    if(outcome<0){
+	    if(outcome<0)
+	    {
 
 	       System.out.println( "Element is not present in the array");
 

@@ -7,7 +7,8 @@ public class Insertion_sort {
 
 	        int[] arr = {9,12,31,21,44};
 	        insertionSort(arr);
-	        for(int i=0;i<arr.length;i++){
+	        for(int i=0;i<arr.length;i++)
+	        {
 
 	            System.out.println(arr[i]);
 

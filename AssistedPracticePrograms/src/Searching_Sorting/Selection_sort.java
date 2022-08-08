@@ -9,7 +9,8 @@ public class Selection_sort {
 		    int length = arr.length;
 		    selection_sort(arr);
 		    System.out.println("The sorted elements are:");
-		    for(int i:arr){
+		    for(int i:arr)
+		    {
 
 		        System.out.println(i);
 		         }
