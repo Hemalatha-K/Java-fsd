@@ -6,7 +6,7 @@ public class ExponentialSearch {
 	
 	public static  void main(String[] args){
 
-	    int[] arr = {6,12,8,24,32};
+	     int[] arr = {6,12,8,24,32};
 	    int length= arr.length;
 	    int value = 18;
 	    int outcome = exponentialSearch(arr,length,value);
