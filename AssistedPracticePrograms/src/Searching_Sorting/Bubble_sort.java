@@ -3,7 +3,7 @@ package Searching_Sorting;
 public class Bubble_sort {
 	public static void main(String[] args){
 
-	     int[] arr= {25,20,15,5,10};
+	     int[] arr= {25,20,15,52,10};
 	     bubbleSort(arr);
 	     for(int i=0;i<arr.length;i++){
 

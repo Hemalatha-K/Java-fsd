@@ -52,7 +52,7 @@ public class Quick_sort {
 	     // Driver program
 	     public static void main(String args[])
 	     {
-	         int arr[] = {10, 7, 8, 9, 1, 5};
+	         int arr[] = {10, 6, 8, 9, 1, 5};
 	         int n = arr.length;
 
 	         Quick_sort ob = new Quick_sort();

@@ -5,7 +5,7 @@ package Searching_Sorting;
 public class Selection_sort {
 	 public static void main(String[] args) {
 
-		    int[] arr = {9,6,3,1,2,4,5};
+		    int[] arr = {8,6,3,1,2,3,5};
 		    int length = arr.length;
 		    selection_sort(arr);
 		    System.out.println("The sorted elements are:");

@@ -5,7 +5,7 @@ import java.util.*;
 public class LinearSearch {
 	public static void main(String[] args){
 
-        int[] arr = {10,20,30,40,50};
+        int[] arr = {10,20,60,40,50};
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the element to be searched");

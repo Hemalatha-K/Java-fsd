@@ -5,7 +5,7 @@ package Searching_Sorting;
 public class Insertion_sort {
 	 public static  void main(String[] args){
 
-	        int[] arr = {9,12,3,21,44};
+	        int[] arr = {9,12,31,21,44};
 	        insertionSort(arr);
 	        for(int i=0;i<arr.length;i++){
 
